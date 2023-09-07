@@ -16,6 +16,7 @@ int replace(BinaryTreeNode<int> *root , int sum)
       root->data=sum;//replacing the root
 
       sum =replace(root->left,sum);
+
     
    return  sum;
     
