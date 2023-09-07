@@ -1,6 +1,6 @@
 // searching in bst
 bool searchInBST(BinaryTreeNode<int> *root , int k) {
-	// Write your code here
+	
 if (root==NULL){
 	return false;
 }
